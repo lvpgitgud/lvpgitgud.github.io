@@ -31,11 +31,11 @@
     
       <div class="content-inner">
          
-        <h2>Contact Me</h2>
+        <h1>Contact Me</h1>
         <hr>
          
-         
         <article class="post">
+          <h2>Contact form</h2>
           <form class="contact-form" onsubmit="return isValid()">
           
           <label for="name">Full Name</label>
@@ -71,9 +71,10 @@
 
           <label for="reason">Reason</label>
           <select id="reason" name="reason" required>
-            <option value="support">Suggestion</option>
+            <option value="">-- Choose one --</option>
+            <option value="suggestion">Suggestion</option>
             <option value="feedback">Feedback</option>
-            <option value="business">Collab</option>
+            <option value="collab">Collab</option>
           </select>
 
           <label for="file">Upload a File</label>
@@ -88,7 +89,7 @@
         </article>
  
       </div>
-    </article>
+
 
 
   </main>
