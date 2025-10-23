@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LVP's 2cents</title>
+
+  <link rel = "stylesheet" href="/style/style.css">
+
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div>
+      <h1>LVP's 2cents</h1>
+      <p>A personal website (WIP)</p>
+    </div>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/about/">About</a>
+      <a href="/posts/">Posts</a>
+      <a href="/art/">Art</a>
+      <a href="/projects">Projects</a>
+      <a href="/now/"class="active">What I've been up to</a>
+      <a href="/contacts/">Contacts</a>
+      <button id="theme-toggle">Light Mode</button>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <div class = "content-inner">
+      <article class="post">
+
+            <h4>Vulkan Engine | 3D Renderer | Computer Graphics</h4>
+            <p><i>High-performance 3D graphics renderer with model loading, texture mapping and raytracing support</i></p>
+            <p>Coded in: C/C++, GLSL</p>
+            <p>Tools used:<a href ="https://vulkan.lunarg.com/sdk/home">Vulkan</a>, <a href = "https://github.com/ocornut/imgui">DearImGui</a>, <a href ="https://github.com/libsdl-org/SDL">SDL</a>, <a href ="https://cmake.org/CMake">CMake</a></p>
+            <p>Status: Ongoing</p>
+            <p>GitHub repository: Not available at the moment!</a></p>
+        </article>
+        <hr>
+        <article class="post">
+
+            <h4>Overview</h4>
+            <p>I've always been fascinated with the field of Computer Graphics, not long ago, I was first discovered OpenGL while developing one of my first game
+            , since then I have dreamt of maintaining my own ad hoc renderer or game engine of some kind. The led me down a rabbit hole of learning more about graphics programming,
+            the graphics pipeline and GPU/SIMD architecture. This project is an accumulation of my knowledge put to use.  
+            </p>
+
+            <h4>About Vulkan</h4>
+            <p>OpenGL's <i>was</i> the leading graphics library, back then, the people behind OpenGL announced NextGl, the supposed successor of OpenGL, and now it is here and it's called Vulkan.
+              <br>
+              Vulkan can do anything OpenGL can and so much more.. at the cost of a high learning curve.
+            </p>
+            <p>One of the main appeal of Vulkan to me is its similiar syntax to OpenGL and <i>Raytracing hardware acceleration support</i>, which is a topic I wished to pursue in the foreseeable future.</p>
+
+            <h4>Can't make an omlette without breaking eggs </h4>
+            <p>In order for me to fully explore the potential of Vulkan, first I need to build a graphics pipeline using Vulkan, which is a task easier said than done.</p>
+            <p>Luckily for me, the Kronos Group, the ones behind Vulkan, was graciously enough to provide a hands-on tutorial for their new API, which I highly <a href="https://docs.vulkan.org/tutorial/latest/00_Introduction.html">recommend.</a></p>
+        </article>
+
+
+
+   
+
+
+      
+      <hr>
+    </article>
+  </div>
+  </main>
+
+<script src="/script/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LVP's 2cents</title>
+
+  <link rel = "stylesheet" href="/style/style.css">
+
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div>
+      <h1>LVP's 2cents</h1>
+      <p>A personal website (WIP)</p>
+    </div>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/about/">About</a>
+      <a href="/posts/">Posts</a>
+      <a href="/art/">Art</a>
+      <a href="/projects">Projects</a>
+      <a href="/now/">What I've been up to</a>
+      <a href="/contacts/"class="active">Contacts</a>
+      <button id="theme-toggle">Light Mode</button>
+    </nav>
+  </aside>
+
+  <main class="content">
+    
+      <div class="content-inner">
+         
+        <h2>Contact Me</h2>
+        <hr>
+         
+         
+        <article class="post">
+          <form class="contact-form" onsubmit="return isValid()">
+          
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label for="password">"Encoded Message"</label>
+          <input type="password" id="password" name="password" placeholder="Enter a password" required>
+
+ 
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" required>
+
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" required>
+
+
+          <label >Gender</p>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+
+          <br><br>
+
+          <label >Topic</p>
+          <label><input type="checkbox" name="interests" value="coding"> Coding</label>
+          <label><input type="checkbox" name="interests" value="music"> Art</label>
+          <label><input type="checkbox" name="interests" value="travel"> Writing</label>
+
+          <br><br>
+
+          <label for="reason">Reason</label>
+          <select id="reason" name="reason" required>
+            <option value="support">Suggestion</option>
+            <option value="feedback">Feedback</option>
+            <option value="business">Collab</option>
+          </select>
+
+          <label for="file">Upload a File</label>
+          <input type="file" id="file" name="file">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+          <button type="submit">Send Form</button>
+      
+        </form>
+        </article>
+ 
+      </div>
+    </article>
+
+
+  </main>
+
+<script src="/script/index.js"></script>
+</body>
+</html>
